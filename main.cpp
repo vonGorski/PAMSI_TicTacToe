@@ -9,7 +9,7 @@ struct move { // struktura zawierajaca wspolrzedne ruchu
 
 class Game {
 private:
-    int field[100][100]; // tablica nie jest w pe³ni wykorzystwana, ale pozwala to na tworzenie kopii
+    int field[100][100]; // tablica nie jest w peÂ³ni wykorzystwana, ale pozwala to na tworzenie kopii
                             //  poprzez przekazywanie do funkcji po wartosci
                             // dla tablic dynamicznych nie ma takiej mozliwosci
     int size;
