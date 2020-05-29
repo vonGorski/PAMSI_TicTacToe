@@ -9,7 +9,7 @@ struct move { // struktura zawierajaca wspolrzedne ruchu
 
 class Game {
 private:
-    int field[100][100]; // tablica nie jest w peÂ³ni wykorzystwana, ale pozwala to na tworzenie kopii
+    int field[100][100]; // tablica nie jest w pe³ni wykorzystwana, ale pozwala to na tworzenie kopii
                             //  poprzez przekazywanie do funkcji po wartosci
                             // dla tablic dynamicznych nie ma takiej mozliwosci
     int size;
@@ -250,10 +250,10 @@ void Game::Play() {
 
     switch (is_vin()) {
     case 1:
-        std::cout << "Zwycierza gracz nr 1!!!";
+        std::cout << "Zwycieza gracz nr 1!!!";
         break;
     case -11:
-        std::cout << "Zwycierza gracz nr 2!!!";
+        std::cout << "Zwycieza gracz nr 2!!!";
         break;
     case 0:
         std::cout << "Remis";
